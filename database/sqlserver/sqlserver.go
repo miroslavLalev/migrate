@@ -241,7 +241,7 @@ func (ss *SQLServer) SetVersion(version int, dirty bool) error {
 
 	// Also re-write the schema version for nil dirty versions to prevent
 	// empty schema version for failed down migration on the first migration
-	// See: https://github.com/golang-migrate/migrate/issues/330
+	// See: https://github.com/miroslavLalev/migrate/issues/330
 	if version >= 0 || (version == database.NilVersion && dirty) {
 		var dirtyBit int
 		if dirty {

@@ -1,11 +1,11 @@
 [![Build Status](https://img.shields.io/travis/com/golang-migrate/migrate/master.svg)](https://travis-ci.com/golang-migrate/migrate)
-[![GoDoc](https://godoc.org/github.com/golang-migrate/migrate?status.svg)](https://godoc.org/github.com/golang-migrate/migrate)
+[![GoDoc](https://godoc.org/github.com/miroslavLalev/migrate?status.svg)](https://godoc.org/github.com/miroslavLalev/migrate)
 [![Coverage Status](https://img.shields.io/coveralls/github/golang-migrate/migrate/master.svg)](https://coveralls.io/github/golang-migrate/migrate?branch=master)
 [![packagecloud.io](https://img.shields.io/badge/deb-packagecloud.io-844fec.svg)](https://packagecloud.io/golang-migrate/migrate?filter=debs)
 [![Docker Pulls](https://img.shields.io/docker/pulls/migrate/migrate.svg)](https://hub.docker.com/r/migrate/migrate/)
 ![Supported Go Versions](https://img.shields.io/badge/Go-1.13%2C%201.14-lightgrey.svg)
-[![GitHub Release](https://img.shields.io/github/release/golang-migrate/migrate.svg)](https://github.com/golang-migrate/migrate/releases)
-[![Go Report Card](https://goreportcard.com/badge/github.com/golang-migrate/migrate)](https://goreportcard.com/report/github.com/golang-migrate/migrate)
+[![GitHub Release](https://img.shields.io/github/release/golang-migrate/migrate.svg)](https://github.com/miroslavLalev/migrate/releases)
+[![Go Report Card](https://goreportcard.com/badge/github.com/miroslavLalev/migrate)](https://goreportcard.com/report/github.com/miroslavLalev/migrate)
 
 # migrate
 
@@ -102,7 +102,7 @@ $ docker run -v {{ migration dir }}:/migrations --network host migrate/migrate
 * Uses `io.Reader` streams internally for low memory overhead.
 * Thread-safe and no goroutine leaks.
 
-__[Go Documentation](https://godoc.org/github.com/golang-migrate/migrate)__
+__[Go Documentation](https://godoc.org/github.com/miroslavLalev/migrate)__
 
 ```go
 import (
@@ -168,7 +168,7 @@ Version | Supported? | Import | Notes
 --------|------------|--------|------
 **master** | :white_check_mark: | `import "github.com/miroslavLalev/migrate"` | New features and bug fixes arrive here first |
 **v4** | :white_check_mark: | `import "github.com/miroslavLalev/migrate"` | Used for stable releases |
-**v3** | :x: | `import "github.com/golang-migrate/migrate"` (with package manager) or `import "gopkg.in/golang-migrate/migrate.v3"` (not recommended) | **DO NOT USE** - No longer supported |
+**v3** | :x: | `import "github.com/miroslavLalev/migrate"` (with package manager) or `import "gopkg.in/golang-migrate/migrate.v3"` (not recommended) | **DO NOT USE** - No longer supported |
 
 ## Development and Contributing
 
