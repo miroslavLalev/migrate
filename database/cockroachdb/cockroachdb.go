@@ -9,17 +9,12 @@ import (
 	nurl "net/url"
 	"regexp"
 	"strconv"
-)
 
-import (
 	"github.com/cockroachdb/cockroach-go/crdb"
 	"github.com/hashicorp/go-multierror"
 	"github.com/lib/pq"
-)
-
-import (
-	"github.com/golang-migrate/migrate/v4"
-	"github.com/golang-migrate/migrate/v4/database"
+	"github.com/miroslavLalev/migrate/v1"
+	"github.com/miroslavLalev/migrate/v1/database"
 )
 
 func init() {

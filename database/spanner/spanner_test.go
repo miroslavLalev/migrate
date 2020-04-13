@@ -4,15 +4,12 @@ import (
 	"fmt"
 	"os"
 	"testing"
-)
 
-import (
-	"github.com/golang-migrate/migrate/v4"
-	dt "github.com/golang-migrate/migrate/v4/database/testing"
-	_ "github.com/golang-migrate/migrate/v4/source/file"
-)
+	"github.com/miroslavLalev/migrate/v1"
 
-import (
+	dt "github.com/miroslavLalev/migrate/v1/database/testing"
+
+	_ "github.com/miroslavLalev/migrate/v1/source/file"
 	"github.com/stretchr/testify/assert"
 )
 

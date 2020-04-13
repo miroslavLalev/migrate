@@ -3,15 +3,16 @@ package ql
 import (
 	"database/sql"
 	"fmt"
-	"github.com/hashicorp/go-multierror"
 	"io"
 	"io/ioutil"
 	"strings"
 
+	"github.com/hashicorp/go-multierror"
+
 	nurl "net/url"
 
-	"github.com/golang-migrate/migrate/v4"
-	"github.com/golang-migrate/migrate/v4/database"
+	"github.com/miroslavLalev/migrate/v1"
+	"github.com/miroslavLalev/migrate/v1/database"
 	_ "modernc.org/ql/driver"
 )
 

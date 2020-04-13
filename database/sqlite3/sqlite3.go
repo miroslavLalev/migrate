@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/golang-migrate/migrate/v4"
-	"github.com/golang-migrate/migrate/v4/database"
 	"github.com/hashicorp/go-multierror"
+	"github.com/miroslavLalev/migrate/v1"
+	"github.com/miroslavLalev/migrate/v1/database"
 	_ "github.com/xeodou/go-sqlcipher"
 )
 

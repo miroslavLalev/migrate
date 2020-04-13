@@ -3,5 +3,5 @@
 package cli
 
 import (
-	_ "github.com/golang-migrate/migrate/v4/database/cockroachdb"
+	_ "github.com/miroslavLalev/migrate/v1/database/cockroachdb"
 )

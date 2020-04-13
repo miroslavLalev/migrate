@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/gocql/gocql"
-	"github.com/golang-migrate/migrate/v4/database"
 	"github.com/hashicorp/go-multierror"
+	"github.com/miroslavLalev/migrate/v1/database"
 )
 
 func init() {

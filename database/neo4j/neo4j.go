@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"github.com/golang-migrate/migrate/v4/database"
 	"github.com/hashicorp/go-multierror"
+	"github.com/miroslavLalev/migrate/v1/database"
 	"github.com/neo4j/neo4j-go-driver/neo4j"
 )
 

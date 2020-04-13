@@ -10,22 +10,19 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/golang-migrate/migrate/v4"
 	"io"
 	"strconv"
 	"strings"
 	"testing"
-)
 
-import (
 	"github.com/dhui/dktest"
-)
+	"github.com/miroslavLalev/migrate/v1"
+	"github.com/miroslavLalev/migrate/v1/database"
 
-import (
-	"github.com/golang-migrate/migrate/v4/database"
-	dt "github.com/golang-migrate/migrate/v4/database/testing"
-	"github.com/golang-migrate/migrate/v4/dktesting"
-	_ "github.com/golang-migrate/migrate/v4/source/file"
+	dt "github.com/miroslavLalev/migrate/v1/database/testing"
+	"github.com/miroslavLalev/migrate/v1/dktesting"
+
+	_ "github.com/miroslavLalev/migrate/v1/source/file"
 )
 
 var (

@@ -6,13 +6,14 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"github.com/golang-migrate/migrate/v4"
-	"github.com/golang-migrate/migrate/v4/database"
-	"github.com/hashicorp/go-multierror"
-	_ "github.com/nakagami/firebirdsql"
 	"io"
 	"io/ioutil"
 	nurl "net/url"
+
+	"github.com/hashicorp/go-multierror"
+	"github.com/miroslavLalev/migrate/v1"
+	"github.com/miroslavLalev/migrate/v1/database"
+	_ "github.com/nakagami/firebirdsql"
 )
 
 func init() {

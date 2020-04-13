@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/golang-migrate/migrate/v4"
-	_ "github.com/golang-migrate/migrate/v4/database/stub" // TODO remove again
-	_ "github.com/golang-migrate/migrate/v4/source/file"
+	"github.com/miroslavLalev/migrate/v1"
+	_ "github.com/miroslavLalev/migrate/v1/database/stub" // TODO remove again
+	_ "github.com/miroslavLalev/migrate/v1/source/file"
 )
 
 var (
