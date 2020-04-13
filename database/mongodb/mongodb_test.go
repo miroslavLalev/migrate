@@ -14,15 +14,15 @@ import (
 	"time"
 
 	"github.com/dhui/dktest"
-	"github.com/miroslavLalev/migrate/v1"
+	"github.com/miroslavLalev/migrate"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 
-	dt "github.com/miroslavLalev/migrate/v1/database/testing"
-	"github.com/miroslavLalev/migrate/v1/dktesting"
+	dt "github.com/miroslavLalev/migrate/database/testing"
+	"github.com/miroslavLalev/migrate/dktesting"
 
-	_ "github.com/miroslavLalev/migrate/v1/source/file"
+	_ "github.com/miroslavLalev/migrate/source/file"
 )
 
 var (

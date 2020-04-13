@@ -1,4 +1,4 @@
-module github.com/miroslavLalev/migrate/v1
+module github.com/miroslavLalev/migrate
 
 require (
 	cloud.google.com/go/spanner v1.2.0

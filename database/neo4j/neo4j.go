@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/miroslavLalev/migrate/v1/database"
+	"github.com/miroslavLalev/migrate/database"
 	"github.com/neo4j/neo4j-go-driver/neo4j"
 )
 

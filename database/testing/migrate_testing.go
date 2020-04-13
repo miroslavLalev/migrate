@@ -6,7 +6,7 @@ package testing
 import (
 	"testing"
 
-	"github.com/miroslavLalev/migrate/v1"
+	"github.com/miroslavLalev/migrate"
 )
 
 // TestMigrate runs integration-tests between the Migrate layer and database implementations.

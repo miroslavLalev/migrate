@@ -10,9 +10,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/miroslavLalev/migrate/v1"
-	"github.com/miroslavLalev/migrate/v1/database"
-	"github.com/miroslavLalev/migrate/v1/source"
+	"github.com/miroslavLalev/migrate"
+	"github.com/miroslavLalev/migrate/database"
+	"github.com/miroslavLalev/migrate/source"
 )
 
 const defaultTimeFormat = "20060102150405"

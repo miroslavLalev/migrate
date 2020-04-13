@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/miroslavLalev/migrate/v1"
-	_ "github.com/miroslavLalev/migrate/v1/database/stub" // TODO remove again
-	_ "github.com/miroslavLalev/migrate/v1/source/file"
+	"github.com/miroslavLalev/migrate"
+	_ "github.com/miroslavLalev/migrate/database/stub" // TODO remove again
+	_ "github.com/miroslavLalev/migrate/source/file"
 )
 
 var (

@@ -7,7 +7,7 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/miroslavLalev/migrate/v1/source"
+	"github.com/miroslavLalev/migrate/source"
 )
 
 // PartialDriver is a helper service for creating new source drivers working with

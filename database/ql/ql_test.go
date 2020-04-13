@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/miroslavLalev/migrate/v1"
-	dt "github.com/miroslavLalev/migrate/v1/database/testing"
-	_ "github.com/miroslavLalev/migrate/v1/source/file"
+	"github.com/miroslavLalev/migrate"
+	dt "github.com/miroslavLalev/migrate/database/testing"
+	_ "github.com/miroslavLalev/migrate/source/file"
 	_ "modernc.org/ql/driver"
 )
 

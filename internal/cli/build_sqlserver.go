@@ -3,5 +3,5 @@
 package cli
 
 import (
-	_ "github.com/miroslavLalev/migrate/v1/database/sqlserver"
+	_ "github.com/miroslavLalev/migrate/database/sqlserver"
 )

@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/miroslavLalev/migrate/v1/source"
+	"github.com/miroslavLalev/migrate/source"
 )
 
 type AssetFunc func(name string) ([]byte, error)

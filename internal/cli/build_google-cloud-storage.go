@@ -3,5 +3,5 @@
 package cli
 
 import (
-	_ "github.com/miroslavLalev/migrate/v1/source/google_cloud_storage"
+	_ "github.com/miroslavLalev/migrate/source/google_cloud_storage"
 )

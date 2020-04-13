@@ -10,13 +10,13 @@ import (
 
 	"github.com/dhui/dktest"
 	"github.com/go-sql-driver/mysql"
-	"github.com/miroslavLalev/migrate/v1"
+	"github.com/miroslavLalev/migrate"
 	"github.com/stretchr/testify/assert"
 
-	dt "github.com/miroslavLalev/migrate/v1/database/testing"
-	"github.com/miroslavLalev/migrate/v1/dktesting"
+	dt "github.com/miroslavLalev/migrate/database/testing"
+	"github.com/miroslavLalev/migrate/dktesting"
 
-	_ "github.com/miroslavLalev/migrate/v1/source/file"
+	_ "github.com/miroslavLalev/migrate/source/file"
 )
 
 const defaultPort = 3306

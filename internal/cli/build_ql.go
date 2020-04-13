@@ -3,5 +3,5 @@
 package cli
 
 import (
-	_ "github.com/miroslavLalev/migrate/v1/database/ql"
+	_ "github.com/miroslavLalev/migrate/database/ql"
 )

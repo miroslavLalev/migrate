@@ -3,5 +3,5 @@
 package cli
 
 import (
-	_ "github.com/miroslavLalev/migrate/v1/source/godoc_vfs"
+	_ "github.com/miroslavLalev/migrate/source/godoc_vfs"
 )

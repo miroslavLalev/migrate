@@ -16,7 +16,7 @@ import (
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/hashicorp/go-multierror"
-	"github.com/miroslavLalev/migrate/v1/database"
+	"github.com/miroslavLalev/migrate/database"
 )
 
 func init() {

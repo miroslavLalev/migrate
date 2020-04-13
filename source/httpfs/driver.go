@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/miroslavLalev/migrate/v1/source"
+	"github.com/miroslavLalev/migrate/source"
 )
 
 // driver is a migration source driver for reading migrations from

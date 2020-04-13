@@ -13,9 +13,9 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/miroslavLalev/migrate/v1/database"
-	iurl "github.com/miroslavLalev/migrate/v1/internal/url"
-	"github.com/miroslavLalev/migrate/v1/source"
+	"github.com/miroslavLalev/migrate/database"
+	iurl "github.com/miroslavLalev/migrate/internal/url"
+	"github.com/miroslavLalev/migrate/source"
 )
 
 // DefaultPrefetchMigrations sets the number of migrations to pre-read

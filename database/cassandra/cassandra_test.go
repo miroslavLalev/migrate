@@ -8,12 +8,12 @@ import (
 
 	"github.com/dhui/dktest"
 	"github.com/gocql/gocql"
-	"github.com/miroslavLalev/migrate/v1"
+	"github.com/miroslavLalev/migrate"
 
-	dt "github.com/miroslavLalev/migrate/v1/database/testing"
-	"github.com/miroslavLalev/migrate/v1/dktesting"
+	dt "github.com/miroslavLalev/migrate/database/testing"
+	"github.com/miroslavLalev/migrate/dktesting"
 
-	_ "github.com/miroslavLalev/migrate/v1/source/file"
+	_ "github.com/miroslavLalev/migrate/source/file"
 )
 
 var (

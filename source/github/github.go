@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/google/go-github/github"
-	"github.com/miroslavLalev/migrate/v1/source"
+	"github.com/miroslavLalev/migrate/source"
 )
 
 func init() {

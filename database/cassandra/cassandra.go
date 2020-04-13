@@ -12,7 +12,7 @@ import (
 
 	"github.com/gocql/gocql"
 	"github.com/hashicorp/go-multierror"
-	"github.com/miroslavLalev/migrate/v1/database"
+	"github.com/miroslavLalev/migrate/database"
 )
 
 func init() {

@@ -3,11 +3,11 @@ package stub
 import (
 	"testing"
 
-	"github.com/miroslavLalev/migrate/v1"
-	"github.com/miroslavLalev/migrate/v1/source"
-	"github.com/miroslavLalev/migrate/v1/source/stub"
+	"github.com/miroslavLalev/migrate"
+	"github.com/miroslavLalev/migrate/source"
+	"github.com/miroslavLalev/migrate/source/stub"
 
-	dt "github.com/miroslavLalev/migrate/v1/database/testing"
+	dt "github.com/miroslavLalev/migrate/database/testing"
 )
 
 func Test(t *testing.T) {

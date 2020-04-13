@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/miroslavLalev/migrate/v1/source"
+	"github.com/miroslavLalev/migrate/source"
 	"github.com/xanzy/go-gitlab"
 )
 

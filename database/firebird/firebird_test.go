@@ -11,13 +11,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/miroslavLalev/migrate/v1"
+	"github.com/miroslavLalev/migrate"
 
 	"github.com/dhui/dktest"
 
-	dt "github.com/miroslavLalev/migrate/v1/database/testing"
-	"github.com/miroslavLalev/migrate/v1/dktesting"
-	_ "github.com/miroslavLalev/migrate/v1/source/file"
+	dt "github.com/miroslavLalev/migrate/database/testing"
+	"github.com/miroslavLalev/migrate/dktesting"
+	_ "github.com/miroslavLalev/migrate/source/file"
 
 	_ "github.com/nakagami/firebirdsql"
 )

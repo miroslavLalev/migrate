@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/miroslavLalev/migrate/v1/source"
-	"github.com/miroslavLalev/migrate/v1/source/httpfs"
-	st "github.com/miroslavLalev/migrate/v1/source/testing"
+	"github.com/miroslavLalev/migrate/source"
+	"github.com/miroslavLalev/migrate/source/httpfs"
+	st "github.com/miroslavLalev/migrate/source/testing"
 )
 
 type driver struct{ httpfs.PartialDriver }
