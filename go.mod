@@ -28,7 +28,6 @@ require (
 	github.com/jackc/pgconn v1.3.2 // indirect
 	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0 // indirect
 	github.com/lib/pq v1.3.0
-	github.com/mattn/go-sqlite3 v1.10.0
 	github.com/nakagami/firebirdsql v0.0.0-20190310045651-3c02a58cfed8
 	github.com/neo4j-drivers/gobolt v1.7.4 // indirect
 	github.com/neo4j/neo4j-go-driver v1.7.4
@@ -38,6 +37,7 @@ require (
 	github.com/xanzy/go-gitlab v0.15.0
 	github.com/xdg/scram v0.0.0-20180814205039-7eeb5667e42c // indirect
 	github.com/xdg/stringprep v1.0.0 // indirect
+	github.com/xeodou/go-sqlcipher v0.0.0-20190224185451-e2b0cbb2d94a
 	gitlab.com/nyarla/go-crypt v0.0.0-20160106005555-d9a5dc2b789b // indirect
 	go.mongodb.org/mongo-driver v1.1.0
 	golang.org/x/crypto v0.0.0-20200302210943-78000ba7a073 // indirect

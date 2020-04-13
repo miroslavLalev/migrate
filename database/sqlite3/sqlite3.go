@@ -12,7 +12,7 @@ import (
 	"github.com/golang-migrate/migrate/v4"
 	"github.com/golang-migrate/migrate/v4/database"
 	"github.com/hashicorp/go-multierror"
-	_ "github.com/mattn/go-sqlite3"
+	_ "github.com/xeodou/go-sqlcipher"
 )
 
 func init() {
